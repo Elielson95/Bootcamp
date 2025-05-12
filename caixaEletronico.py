@@ -8,7 +8,6 @@ Armazenar contas em uma lista, o cliente pode ter mais de uma conta
 
 import os
 from datetime import datetime
-from caixaEletronicov1 import Caixa
 import random
 
 saldo = 0

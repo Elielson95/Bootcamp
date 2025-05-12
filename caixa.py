@@ -8,9 +8,9 @@ Armazenar contas em uma lista, o cliente pode ter mais de uma conta
 
 import os
 from datetime import datetime
-from caixaEletronicov1 import Caixa
+
 import random
-from caixaEletronicov3 import Menu
+from caixaEletronico import Menu
 
 saldo = 0
 class horas():
@@ -53,7 +53,7 @@ class horas():
                                 
             elif opcao == "4":
                 print(liCliente)
-                #self.extrato()
+               
                 
             else:
 
