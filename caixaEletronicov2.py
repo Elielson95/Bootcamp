@@ -1,6 +1,14 @@
+#Criar funções para: Sacar, depositar e histórico
+#Criar usuário(nome, cpf e endereço completo)
+#Criar conta corrente
+#Vincular conta ao usuário
+'''
+Armazenar contas em uma lista, o cliente pode ter mais de uma conta
+'''
+
 import os
 from datetime import datetime
-from caixa import Caixa
+from caixaEletronicov1 import Caixa
 
 
 class Menu:
